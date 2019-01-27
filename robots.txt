@@ -1,0 +1,7 @@
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+Allow: /test/test1
+
+User-agent: *
+Disallow: /
