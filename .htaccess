@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^about$ about.html [NC]
+RewriteRule ^index$ index.html [NC]
+RewriteRule ^info$ info.php [NC]
