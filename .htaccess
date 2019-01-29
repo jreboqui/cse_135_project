@@ -1,4 +1,4 @@
-Options +FollowSymLinks -MultiViews
+Options +FollowSymLinks -MultiViews -Indexes
 RewriteEngine on
 RewriteRule ^about$ about.html [NC]
 RewriteRule ^index$ index.html [NC]
