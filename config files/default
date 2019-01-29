@@ -77,6 +77,32 @@ server {
 		internal;
 	}
 
+	error_page 403 /custom_403.html;
+	location =/custom_403.html {
+		root /var/www/html;
+		internal;
+	}
+
+	error_page 500 502 503 504 /custom_50x.html;
+	location = /custom_50x.html {
+		root /var/www/html;
+		internal;
+	}
+	
+	
+	location /node {
+		proxy_pass http://localhost:8083;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection 'upgrade';
+		proxy_set_header Host $host;
+		proxy_cache_bypass $http_upgrade;
+	}
+
+	location /testing {
+		fastcgi_pass unix:/does/not/exist;
+	}
+	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
 	error_page 500 502 503 504 /custom_50x.html;
 	location = /custom_50x.html {
 		root /var/www/html;
