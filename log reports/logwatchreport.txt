@@ -1,0 +1,73 @@
+ 
+ ################### Logwatch 7.4.2 (02/27/16) #################### 
+        Processing Initiated: Mon Jan 28 23:42:55 2019
+        Date Range Processed: yesterday
+                              ( 2019-Jan-27 )
+                              Period is day.
+        Detail Level of Output: 10
+        Type of Output/Format: stdout / text
+        Logfiles for Host: ubuntu-s-1vcpu-1gb-sfo2-01
+ ################################################################## 
+ 
+ --------------------- httpd Begin ------------------------ 
+
+ 0.59 MB transferred in 108 responses  (1xx 0, 2xx 65, 3xx 9, 4xx 31, 5xx 3) 
+     15 Images (0.01 MB),
+      1 Documents (0.00 MB),
+     67 Content pages (0.57 MB),
+     25 Other (0.01 MB) 
+ 
+ Attempts to use known hacks by 2 hosts were logged 2 time(s) from:
+    115.204.94.27: 1 Time(s)
+       passwd$ 1 Time(s) 
+    198.108.67.48: 1 Time(s)
+       ^null$ 1 Time(s) 
+ 
+ A total of 2 sites probed the server 
+    115.204.94.27
+    198.108.67.48
+ 
+ Requests with error response codes
+    400 Bad Request
+       /HNAP1/: 1 Time(s)
+       /qnfxcjqr: 1 Time(s)
+       null: 1 Time(s)
+    404 Not Found
+       /wtf: 3 Time(s)
+       /info: 2 Time(s)
+       /something: 2 Time(s)
+       /FxCodeShell.jsp?wiew=FxxkMyLie1836710Aa&o ... in/download.exe: 1 Time(s)
+       /about: 1 Time(s)
+       /current_config/passwd: 1 Time(s)
+       /currentsetting.htm: 1 Time(s)
+       /device_description.xml: 1 Time(s)
+       /favicon.ico: 1 Time(s)
+       /fdsrwe: 1 Time(s)
+       /heelllo.html: 1 Time(s)
+       /home.asp: 1 Time(s)
+       /icons/ubuntu-logo.png: 1 Time(s)
+       /images/logo.gif: 1 Time(s)
+       /info/php: 1 Time(s)
+       /json_rpc: 1 Time(s)
+       /login.html: 1 Time(s)
+       /phpmyadmin/index.php?pma_username=root&pm ... sadmin&server=1: 1 Time(s)
+       /testing: 1 Time(s)
+       /what: 1 Time(s)
+       /winbox.png: 1 Time(s)
+    405 Method Not Allowed
+       /FxCodeShell.jsp%20: 1 Time(s)
+       /FxCodeShell.jsp/: 1 Time(s)
+       /FxCodeShell.jsp::$DATA: 1 Time(s)
+    502 Bad Gateway
+       /testing: 2 Time(s)
+    503 Service Unavailable
+       /proxytest: 1 Time(s)
+ 
+ A total of 1 ROBOTS were logged 
+    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 1 Time(s) 
+ 
+ ---------------------- httpd End ------------------------- 
+
+ 
+ ###################### Logwatch End ######################### 
+

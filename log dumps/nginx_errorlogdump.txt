@@ -1,0 +1,38 @@
+2019/01/28 19:45:35 [info] 7299#7299: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 19:51:55 [info] 7435#7435: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 19:53:43 [info] 7510#7510: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 19:58:36 [info] 7632#7632: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:05:50 [emerg] 7664#7664: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:06:03 [emerg] 7669#7669: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:06:46 [emerg] 7671#7671: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:07:19 [info] 7675#7675: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:07:25 [info] 7678#7678: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:10:11 [emerg] 7744#7744: "try_files" directive is duplicate in /etc/nginx/snippets/fastcgi-php.conf:5
+2019/01/28 20:11:06 [info] 7748#7748: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:11:10 [info] 7757#7757: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:12:37 [emerg] 7774#7774: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:12:42 [emerg] 7779#7779: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:13:07 [emerg] 7783#7783: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:14:12 [info] 7785#7785: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:14:21 [info] 7789#7789: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:14:31 [error] 7796#7796: *1 open() "/var/www/html/about" failed (2: No such file or directory), client: 76.80.178.3, server: _, request: "GET /about HTTP/1.1", host: "142.93.82.54:8082"
+2019/01/28 20:14:36 [error] 7796#7796: *1 open() "/var/www/html/about" failed (2: No such file or directory), client: 76.80.178.3, server: _, request: "GET /about HTTP/1.1", host: "142.93.82.54:8082"
+2019/01/28 20:14:41 [error] 7796#7796: *1 open() "/var/www/html/info" failed (2: No such file or directory), client: 76.80.178.3, server: _, request: "GET /info? HTTP/1.1", host: "142.93.82.54:8082"
+2019/01/28 20:14:46 [error] 7796#7796: *1 open() "/var/www/html/info" failed (2: No such file or directory), client: 76.80.178.3, server: _, request: "GET /info? HTTP/1.1", host: "142.93.82.54:8082"
+2019/01/28 20:15:05 [error] 7796#7796: *1 open() "/var/www/html/info" failed (2: No such file or directory), client: 76.80.178.3, server: _, request: "GET /info? HTTP/1.1", host: "142.93.82.54:8082"
+2019/01/28 20:34:41 [emerg] 7854#7854: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:54
+2019/01/28 20:35:33 [info] 7859#7859: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:35:39 [info] 7868#7868: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:37:34 [info] 7886#7886: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:37:35 [info] 7894#7894: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:40:46 [info] 7967#7967: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:40:50 [info] 7975#7975: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:42:09 [emerg] 7989#7989: "try_files" directive is duplicate in /etc/nginx/sites-enabled/default:61
+2019/01/28 20:43:01 [emerg] 7994#7994: "try_files" directive is duplicate in /etc/nginx/snippets/fastcgi-php.conf:5
+2019/01/28 20:43:48 [info] 7996#7996: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:43:55 [info] 8004#8004: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:46:30 [info] 8018#8018: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:46:32 [info] 8026#8026: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:47:49 [emerg] 8035#8035: pcre_compile() failed: missing ) in "^/([^?]*)\.php($|\)" in /etc/nginx/sites-enabled/default:59
+2019/01/28 20:48:25 [info] 8041#8041: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
+2019/01/28 20:48:33 [info] 8050#8050: Using 32768KiB of shared memory for push module in /etc/nginx/nginx.conf:67
