@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+var ext = /[\w\d_-]+\.[\w\d]+$/;
 const hostname = '142.93.82.54';
 
 const port = 8083;
